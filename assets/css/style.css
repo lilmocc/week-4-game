@@ -1,0 +1,31 @@
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.attack {
+  font-family: sans-serif;
+  height: 50px;
+}
+
+.button {
+  font-family: sans-serif;
+  height: 150px;
+}
+
+.pics {
+  height: 100px;
+  width: 200px;
+}
+
+.nametext {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.hptext {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: red;
+}
