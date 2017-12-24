@@ -68,6 +68,7 @@ $("body").on("click", ".characters", function() {
 
 // on click function to select first opponent, and place button to start round
 $("body").on("click", "#other-opponents", function() {
+  if ($("#opponent-character").is(':empty')) {
     currentOpponent = $(this).removeClass("characters").attr("id", "opponent-character");
     otherCharacters = $(this).siblings().attr("id", "other-opponents");
     $("#opponent-character").append("Your Opponent:");
@@ -83,6 +84,7 @@ $("body").on("click", "#other-opponents", function() {
     var opponents = $(this).siblings('div').detach();
     console.log(currentOpponent);
     console.log(otherCharacters);
+  }
 });
 
 // on click function to start game & first attack
