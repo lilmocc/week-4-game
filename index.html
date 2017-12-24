@@ -3,31 +3,43 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Game</title>
+  <title>Puppet Fight Club</title>
   <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="assets/javascript/jquery-3.2.1.js"></script>
   <script src="assets/javascript/game.js"></script>
-
 </head>
 
 <body>
 
-<h1>Game</h1>
+<h1>PUPPET FIGHT CLUB</h1>
 <div id="instructions"></div>
 
-<h4 class="message">To start playing, choose your character!</h4>
-  <div id="character-list"></div>
+<h4 id="message">To start playing, choose your character!</h4>
 
-<h4>Your character:</h4>
-    <div id="your-character"></div>
 
-<h4>Your opponent:</h4>
-  <div id="opponent-character"></div>
+<h4>
+    <div>
+      <span id="your-character"></span>
+      <span id="opponent-character"></span>
+    </div>
+    <div>
+      <div id="attack-area"></div>
+      <div id="attack-message"></div>
+    </div>
+</h4>
 
-<button id="attack">Attack!</button>
+
+<!-- <button id="attack"></button> -->
 
 <div id="other-opponents"></div>
+
+<h4>
+  <div id="character-list"></div>
+
+</h4>
 
 </body>
 
